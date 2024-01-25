@@ -1,0 +1,335 @@
+body{
+    background-color:black;
+
+    background-position: fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: flex-start;
+    background-color: black;
+    height: 100px;
+}
+h2{
+    font-size: 30px;
+}
+.logo{
+  display: flex;
+}
+.navbar{
+
+    text-align: center;
+display: flex;
+align-items: center;
+margin-left: 30%;
+}
+a{
+color: white;
+padding: 10px;
+text-decoration: none;
+}
+
+.grid{
+    display:grid;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap:20px;
+    
+}
+#about{
+    text-align: center;
+    color: aliceblue;
+    font-size:x-large;
+    padding: 3%;
+    text-decoration: none;
+    
+}
+.i{
+    border-radius: 50px;
+}
+pre{
+    font-size: 15px;
+    display: grid;
+}
+.z{
+    color: blue;
+}
+.gridi{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+}
+
+.item1,.item2,.item3,.item4,.item5,.item6,.item7,.item8{
+    height: 380px;
+    width: 350px;
+    background-color: aqua;
+    color: rgb(12, 11, 11);
+    border-radius: 50px 50px 0px 0px;
+}
+.item1
+{
+    background-color: whitesmoke;
+
+}
+.item2
+{
+    background-color: whitesmoke;
+}
+.btn{
+    text-align: center;
+    background-color: black;
+    display: inline;
+    display:flex;
+    justify-content: center;
+}
+.item3{ 
+    background-color: whitesmoke;
+}
+.item4{
+    background-color: whitesmoke;
+}
+.item5{
+    background-color:whitesmoke;
+}
+.item6{
+    background-color:whitesmoke;
+}
+.item7{
+    background-color: whitesmoke;
+}
+.item8{
+    background-color: whitesmoke;
+}
+.gridii{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    display: flex
+    ;
+}
+.itema,.itemb,.itemc,.itemd,.iteme,.itemf{
+    width: 350px;
+    height: 350px;
+    background-color: aqua;
+}
+.itema{
+    border: 5px solid orange;
+    background-color: rgba(98, 158, 182, 0.432);
+}
+.itemb{
+    background-color: rgba(98, 158, 182, 0.432);
+    border: 5px solid whitesmoke;
+}
+.itemc{
+    background-color: rgba(98, 158, 182, 0.432);
+    border: 5px solid darkblue;
+}
+.itemd{
+    background-color: rgba(98, 158, 182, 0.432);
+    border: 5px solid lightgreen;
+}
+.iteme{
+    background-color: rgba(98, 158, 182, 0.432);
+    border: 5px solid skyblue;
+}
+.itemf{
+    background-color: rgba(98, 158, 182, 0.432);
+    border: 5px solid green;
+}
+.gridiii{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+}
+.iteml,.itemk,.itemm{
+    gap: 10px;
+    width: 500px;
+    height: 120px;
+    background-color: whitesmoke;
+}
+.n{
+    display: flex;
+    color: black;
+}
+.itemk{
+    display: flex;
+    color: black;
+}
+.itemm{
+    display: flex;
+    color: black;
+}
+.row{
+    display: flex;
+}
+.inputbox{
+    color: white;
+    width: 850px;
+    height: 70px;
+}
+.btni{
+    width: 85px;
+    color: white;
+    background-color: black;
+}
+footer{
+    background-color: black;
+    background-image: url(con.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 400px;
+    height: 100px;
+}
+input{
+    width: 400px;
+    height: 30px;
+}
+.a{
+    background-color: grey;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.a:hover{
+    background-color: brown;
+}
+.gridiiii{
+    
+    display: grid;
+    grid-template-rows: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 10px;
+
+}
+.itemp,.itemq,.itemr,.items{
+    background-color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    
+}
+.mg{
+    border-radius: 50%;
+    padding:3px;
+    margin-left: -10px;
+}
+#carousel {
+    width: 100%;
+    height:700px;
+    background-color: black;
+    overflow: auto auto;
+    white-space: nowrap;
+}
+#carousel .slide {
+    display: inline-block;
+}
+h2{
+    color: white;
+}
+.btn:hover{
+    background-color: brown;
+
+}
+marquee{
+    color: white;
+}
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar a {
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #3498db, #e74c3c); 
+    color: #fff; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);  
+    transition: background 0.3s ease-in-out; 
+}
+.navbar a:hover {
+    background: linear-gradient(to right, #2980b9, #c0392b); 
+}
+#about h2 {
+    background: linear-gradient(to right, #3498db, #e74c3c); 
+    -webkit-background-clip: text; 
+    color: transparent; 
+    display: inline-block; 
+}
+#about h3 {
+    background: linear-gradient(to right, #3498db, #e74c3c); 
+    -webkit-background-clip: text; 
+    color: transparent; 
+    display: inline-block; 
+}
+#menu h2 {
+    background: linear-gradient(to right, #3498db, #e74c3c); 
+    -webkit-background-clip: text; 
+    color: transparent; 
+    display: inline-block; 
+}
+#products h2 {
+    background: linear-gradient(to right, #3498db, #e74c3c); 
+    -webkit-background-clip: text; 
+    color: transparent; 
+    display: inline-block; 
+}
+#vedios h2 {
+    background: linear-gradient(to right, #3498db, #e74c3c); 
+    -webkit-background-clip: text; 
+    color: transparent; 
+    display: inline-block; 
+}
+#reviews h2 {
+    background: linear-gradient(to right, #3498db, #e74c3c); 
+    -webkit-background-clip: text; 
+    color: transparent; 
+    display: inline-block; 
+}
+#contact h2,h3{
+    background: linear-gradient(to right, #3498db, #e74c3c); 
+    -webkit-background-clip: text; 
+    color: transparent; 
+    display: inline-block; 
+}
+/* Container styling */
+.form-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Input box styling */
+.inputbox {
+    margin-bottom: 10px;
+}
+
+.inputbox input {
+    
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Button styling */
+.btni {
+    background: linear-gradient(to right, #3498db, #e74c3c);
+    border-radius: 5px;
+   
+}
+
+.btni:hover {
+    background-color: #2980b9;
+}
